@@ -28,4 +28,3 @@ module Solargraph
 end
 
 Solargraph::Diagnostics.register "standardrb", Solargraph::Standardrb::Reporter
-

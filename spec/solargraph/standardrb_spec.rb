@@ -1,4 +1,3 @@
-require 'solargraph'
 RSpec.describe Solargraph::Standardrb do
   it "has a version number" do
     expect(Solargraph::Standardrb::VERSION).not_to be nil

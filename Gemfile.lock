@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     solargraph-standardrb (0.0.1)
-      solargraph (~> 0.39)
+      solargraph (~> 0.39.1)
       standard (~> 0.2.4)
 
 GEM
@@ -50,7 +50,7 @@ GEM
     rubocop-performance (1.5.2)
       rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
-    solargraph (0.39.0)
+    solargraph (0.39.1)
       backport (~> 1.1)
       benchmark
       bundler (>= 1.17.2)

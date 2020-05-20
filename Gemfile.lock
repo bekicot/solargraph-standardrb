@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    solargraph-standardrb (0.0.1)
+    solargraph-standardrb (0.0.2)
       solargraph (~> 0.39.1)
-      standard (~> 0.2.4)
+      standard (~> 0.4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -19,7 +19,7 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
-    parser (2.7.1.1)
+    parser (2.7.1.2)
       ast (~> 2.4.0)
     rainbow (3.0.0)
     rake (12.3.3)
@@ -39,18 +39,17 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    rubocop (0.80.1)
-      jaro_winkler (~> 1.5.1)
+    rubocop (0.83.0)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
       rainbow (>= 2.2.2, < 4.0)
       rexml
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-performance (1.5.2)
       rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
-    solargraph (0.39.1)
+    solargraph (0.39.7)
       backport (~> 1.1)
       benchmark
       bundler (>= 1.17.2)
@@ -64,13 +63,13 @@ GEM
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
-    standard (0.2.4)
-      rubocop (~> 0.80.1)
+    standard (0.4.2)
+      rubocop (~> 0.83.0)
       rubocop-performance (~> 1.5.2)
     thor (1.0.1)
     tilt (2.0.10)
-    unicode-display_width (1.6.1)
-    yard (0.9.24)
+    unicode-display_width (1.7.0)
+    yard (0.9.25)
 
 PLATFORMS
   ruby

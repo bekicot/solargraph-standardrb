@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "solargraph/standardrb"
+require "solargraph-standardrb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

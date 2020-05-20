@@ -9,7 +9,6 @@ RSpec.describe Solargraph::Standardrb do
     ))
     reporter = Solargraph::Standardrb::Reporter.new
     errors = reporter.diagnose(source, nil)
-    puts(errors.inspect)
     expect(errors).not_to be_empty
   end
 end

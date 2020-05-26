@@ -4,6 +4,13 @@ A StandardRb diagnostics reporter for the Solargraph language server.
 
 ## Installation
 
+`standardrb` is a wrapper to rubocop with some senible defaults.
+To avoid conflict with installed rubocop version, uninstall rubocop.
+
+```ruby
+gem uninstall rubocop
+```
+
 Add this line to your application's Gemfile:
 
 ```ruby
